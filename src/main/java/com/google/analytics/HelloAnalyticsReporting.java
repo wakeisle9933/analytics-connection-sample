@@ -31,8 +31,8 @@ import com.google.api.services.analyticsreporting.v4.model.ReportRow;
 public class HelloAnalyticsReporting {
     private static final String APPLICATION_NAME = "Hello Analytics Reporting";
     private static final JsonFactory JSON_FACTORY = GsonFactory.getDefaultInstance();
-    private static final String KEY_FILE_LOCATION = "<REPLACE_WITH_JSON_FILE>";
-    private static final String VIEW_ID = "<REPLACE_WITH_VIEW_ID>";
+    private static final String KEY_FILE_LOCATION = "C:\\workspace\\analytics-web\\src\\main\\resources\\userdata\\client_secret_461590089631-17cttvm62470g3o05l7ms6tpkdt8cj5l.apps.googleusercontent.com.json";
+    private static final String VIEW_ID = "201175845";
     public static void main(String[] args) {
         try {
             AnalyticsReporting service = initializeAnalyticsReporting();
