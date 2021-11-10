@@ -37,7 +37,6 @@ public class HelloAnalyticsReporting {
         try {
             AnalyticsReporting service = initializeAnalyticsReporting();
 
-
             GetReportsResponse response = getReport(service);
             printResponse(response);
         } catch (Exception e) {
